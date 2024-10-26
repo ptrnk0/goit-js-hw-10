@@ -1,0 +1,76 @@
+/** Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+/* Common */
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+/*! Links  */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+main a:first-child {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    transition: transform 350ms ease-out, opacity 350ms ease-out;
+
+}
+
+main a:first-child:hover {
+    transform: scale(1.1);
+    opacity: 90%;
+}
+
+main a:last-child {
+    background-color: orange;
+    color: white;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    transition: transform 350ms ease-out, opacity 350ms ease-out;
+}
+
+main a:last-child:hover {
+    transform: scale(1.1);
+    opacity: 90%;
+}

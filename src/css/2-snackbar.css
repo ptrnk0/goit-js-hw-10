@@ -1,0 +1,134 @@
+@import "izitoast/dist/css/iziToast.min.css";
+@import './btn-back.css';
+
+/* Common */
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+}
+
+/** Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form>label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+input[type='number'] {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    outline: none;
+    padding: 8px 16px;
+    transition: border 500ms ease-out;
+}
+
+input[type='number']:hover {
+    border: 1px solid #000;
+}
+
+input[type='number']:focus {
+    border: 1px solid #4e75ff;
+}
+
+fieldset {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 78px;
+    padding-top: 10px;
+    transition: border-color 500ms ease-out;
+}
+
+fieldset:hover {
+    border-color: #000;
+}
+
+
+fieldset>legend {
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+fieldset>div {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+div>label {
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+form>button {
+    border: none;
+    border-radius: 8px;
+    width: 360px;
+    padding: 8px 0;
+    background: #4e75ff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    transition: background 500ms ease-out;
+}
+
+form>button:hover {
+    background: #6c8cff;
+}

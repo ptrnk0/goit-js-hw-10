@@ -1,0 +1,15 @@
+.back-btn {
+    background-color: #4e75ff;
+    color: white;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    transition: transform 350ms ease-out, opacity 350ms ease-out;
+    margin: 15px 15px;
+}
+
+main a:hover {
+    transform: scale(1.1);
+    opacity: 90%;
+}
